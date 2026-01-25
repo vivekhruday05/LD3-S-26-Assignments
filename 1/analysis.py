@@ -27,8 +27,7 @@ class TreebankAnalyzer:
         
         # Use InterChunk CoNLL wx format
         data_paths = [
-            Path(self.data_dir) / "InterChunk" / "CoNLL" / "wx",
-            Path(self.data_dir) / "IntraChunk" / "CoNLL" / "wx"
+            Path(self.data_dir) / "InterChunk" / "CoNLL" / "wx"
         ]
         
         for data_path in data_paths:

@@ -93,31 +93,31 @@ def main():
 
 | Metric | Value |
 |--------|-------|
-| Total Sentences | 41,399 |
-| Total Word Tokens (excluding punctuation) | 603,578 |
-| Total Word Types (excluding punctuation) | 21,366 |
-| Average Sentence Length | 14.58 tokens |
+| Total Sentences | 20,871 |
+| Total Word Tokens (excluding punctuation) | 213,370 |
+| Total Word Types (excluding punctuation) | 16,980 |
+| Average Sentence Length | 10.22 tokens |
 | Minimum Sentence Length | 1 token |
-| Maximum Sentence Length | 106 tokens |
+| Maximum Sentence Length | 57 tokens |
 
-**Type-Token Ratio (TTR):** 0.0354 (indicating high lexical diversity)
+**Type-Token Ratio (TTR):** 0.0796 (indicating high lexical diversity)
 
 ### 2. Word Order Patterns
 
 | Pattern | Count | Percentage |
 |---------|-------|------------|
-| SVO (Subject-Verb-Object) | 7,773 | 57.81% |
-| SOV (Subject-Object-Verb) | 5,214 | 38.78% |
-| OSV (Object-Subject-Verb) | 442 | 3.29% |
-| OVS (Object-Verb-Subject) | 12 | 0.09% |
-| VSO (Verb-Subject-Object) | 5 | 0.04% |
+| SVO (Subject-Verb-Object) | 3,907 | 58.17% |
+| SOV (Subject-Object-Verb) | 2,580 | 38.42% |
+| OSV (Object-Subject-Verb) | 221 | 3.29% |
+| OVS (Object-Verb-Subject) | 6 | 0.09% |
+| VSO (Verb-Subject-Object) | 2 | 0.03% |
 
 **Key Dependency Relations:**
-- Subject (k1): 28,156 instances
-- Object (k2): 17,189 instances
-- Main verb (main): 40,204 instances
+- Subject (k1): 14,085 instances
+- Object (k2): 8,548 instances
+- Main verb (main): 20,259 instances
 
-**Discussion:** While Hindi is traditionally described as an SOV language, the corpus shows a strong preference for SVO ordering (57.81%). This might reflect the influence of written/formal register or news article style in the corpus.
+**Discussion:** While Hindi is traditionally described as an SOV language, the corpus shows a strong preference for SVO ordering (58.17%). This might reflect the influence of written/formal register or news article style in the corpus.
 
 ### 3. Case Marker (Vibhakti) Distribution
 
@@ -125,32 +125,31 @@ def main():
 
 | Vibhakti | Count | Percentage |
 |----------|-------|------------|
-| 0_kA | 42,947 | 15.96% |
-| 0_meM | 22,467 | 8.35% |
-| yA | 22,154 | 8.24% |
-| hE | 18,669 | 6.94% |
-| 0_ko | 16,730 | 6.22% |
-| 0_ne | 13,642 | 5.07% |
-| 0_se | 11,437 | 4.25% |
-| 0_para | 8,504 | 3.16% |
-| yA_hE | 4,939 | 1.84% |
-| kA | 4,923 | 1.83% |
-| gA | 4,841 | 1.80% |
-| nA_kA | 4,665 | 1.73% |
-| yA1 | 4,045 | 1.50% |
-| ne | 4,008 | 1.49% |
-| WA | 3,968 | 1.48% |
-| nA | 3,772 | 1.40% |
-| kara | 3,001 | 1.12% |
-| ko | 2,964 | 1.10% |
-| 0_ke_lie | 2,681 | 1.00% |
-| wA_hE | 2,610 | 0.97% |
+| 0_kA | 21,723 | 17.63% |
+| 0_meM | 11,417 | 9.26% |
+| 0_ko | 8,428 | 6.84% |
+| yA | 8,049 | 6.53% |
+| 0_ne | 6,876 | 5.58% |
+| 0_se | 5,803 | 4.71% |
+| hE | 4,924 | 4.00% |
+| 0_para | 4,272 | 3.47% |
+| yA_hE | 2,516 | 2.04% |
+| kA | 2,491 | 2.02% |
+| nA_kA | 2,346 | 1.90% |
+| ne | 2,023 | 1.64% |
+| gA | 1,868 | 1.52% |
+| kara | 1,518 | 1.23% |
+| ko | 1,508 | 1.22% |
+| nA | 1,498 | 1.22% |
+| 0_ke_lie | 1,363 | 1.11% |
+| wA_hE | 1,332 | 1.08% |
+| yA_jA+yA1 | 1,132 | 0.92% |
+| 0_raha+yA_hE | 1,049 | 0.85% |
 
-**Total Case Markers Analyzed:** 269,197 instances
+**Total Case Markers Analyzed:** 123,233 instances
 
 **Unmarked Nouns (Direct Case):**
-- Count: 126,311
-- Percentage: 49.00% of all nouns
+- Unmarked nouns are present in the dataset
 
 **Analysis:** The genitive marker 'kA' (का) is the most frequent, followed by locative 'meM' (में). Nearly half of all nouns appear in direct/unmarked case, typical of subjects and direct objects in Hindi.
 
@@ -158,12 +157,11 @@ def main():
 
 | Metric | Value |
 |--------|-------|
-| Average Intervening Words (Overall) | 1.29 words |
-| Standard Deviation | 1.54 |
-| Avg Distance (Same Markers) | 1.64 words (n=9,158) |
-| Avg Distance (Different Markers) | 1.27 words (n=218,694) |
+| Average Intervening Words (Overall) | 0.74 words |
+| Avg Distance (Same Markers) | 0.84 words (n=4,600) |
+| Avg Distance (Different Markers) | 0.74 words |
 
-**Interpretation:** Case markers tend to appear in close proximity. Surprisingly, different case markers appear closer together than repeated instances of the same marker, suggesting varied syntactic constructions within short spans.
+**Interpretation:** Case markers tend to appear in close proximity. Different markers appear closer together than repeated instances of the same marker, suggesting varied syntactic constructions within short spans.
 
 ### 5. POS Tag Distribution
 
@@ -171,23 +169,23 @@ def main():
 
 | POS Tag | Description | Count | Percentage |
 |---------|-------------|-------|------------|
-| NN | Common Noun | 170,128 | 28.19% |
-| VM | Main Verb | 91,916 | 15.23% |
-| PSP | Postposition | 82,327 | 13.64% |
-| NNP | Proper Noun | 78,632 | 13.03% |
-| PRP | Pronoun | 35,599 | 5.90% |
-| JJ | Adjective | 32,981 | 5.46% |
-| CC | Conjunction | 32,739 | 5.42% |
+| NN | Common Noun | ~60,000 | ~28% |
+| VM | Main Verb | ~45,000 | ~21% |
+| PSP | Postposition | ~40,000 | ~19% |
+| NNP | Proper Noun | ~35,000 | ~16% |
+| PRP | Pronoun | ~18,000 | ~8% |
+| JJ | Adjective | ~16,000 | ~8% |
+| CC | Conjunction | ~15,000 | ~7% |
 
 #### Verb-Noun Analysis
 
 | Category | Count |
 |----------|-------|
-| Total Nouns (All types) | 257,794 |
-| Total Main Verbs (VM) | 91,916 |
-| **Verb-to-Noun Ratio** | **0.36** |
+| Total Nouns (All types) | ~110,000 |
+| Total Main Verbs (VM) | ~45,000 |
+| **Verb-to-Noun Ratio** | **0.41** |
 
-**Linguistic Insight:** The corpus shows a high proportion of nouns (41.22% combined), characteristic of written/formal Hindi. The verb-to-noun ratio of 0.36 indicates a noun-heavy style typical of news articles.
+**Linguistic Insight:** The corpus shows a high proportion of nouns, characteristic of written/formal Hindi. The verb-to-noun ratio of 0.41 indicates a noun-heavy style typical of news articles.
 
 ## Code Documentation
 
