@@ -1,0 +1,30 @@
+{
+"LEFTARC" : 
+	{
+	"JJ"   : [[[], ["N_NN","PR_PRP"]], "nmod__adj"],
+	"QT_QTC"   : [[[], ["N_NN"]], "nmod"] ,
+	"RP_INTF" : [[[], ["JJ","RB"]], "intf"] ,
+	"RP_INJ"  : [[[], ["N_NN"]], "lwg__uh"] ,
+	"DM_DMD"  : [[[], ["N_NN", "N_NNP", "N_NST"]], "nmod"] ,
+	"N_NNP"  : [[[], ["N_NN"]], "nmod"] ,
+    "N_NN"  : [[[], ["N_NN"]], "pof__cn|pof__redup"],
+    "V_VM"  : [[[], ["V_VM"]], "pof__cv|pof__redup"],
+	"PR_PRQ"   : [[[], ["N_NN", "N_NNP"]], "nmod__wq"] ,
+	"PR_PRP"  : [[[], ["N_NN"]], "nmod"] ,
+	"QT_QTF"   : [[[], ["N_NN"]], "nmod"],
+	"RB"   : [[[], ["V_VM"]], "adv"],
+	"QT_QTO"   : [[[], ["N_NN"]], "nmod"] ,
+	"RD_ECH"  : [[[],["RB"]], "pof__redup"] ,
+	"RD_PUNC"  : [[[], ["N_NN", "N_NNP","QT_QTC","N_NST","V_VM", "JJ","RB","QT_QTF","PR_PRP","QT_QTO","PR_PRQ","RP_INTF","RP_RPD","RP_INJ","CC_CCD"]], "rsym"]
+	},
+"RIGHTARC" : 
+	{"PSP" : [["N_NN", "N_NNP", "PR_PRP", "QT_QTC", "PR_PRQ"], "lwg__psp"] , 
+	"V_VAUX" : [["V_VM"], "lwg__vaux"] ,
+	"RP_NEG"  : [["V_VM"], "lwg__neg"] ,
+	"RP_RPD"   : [["N_NN", "N_NNP","V_VM"], "lwg__rp"] ,
+    "RP_CL" : [["QT_QTC","QT_QTF","RP_INTF"], "lwg__rp"],
+    "N_NST" : [["PR_PRP","N_NN"], "lwg__psp"],
+	"RD_PUNC"  : [["N_NN", "N_NNP","QT_QTC","N_NST","V_VM","V_VAUX", "JJ","RB","QT_QTF","PR_PRP","QT_QTO","PR_PRQ","RP_INTF","RP_RPD","RP_INJ","CC_CCD","CC_CCS","CC_CCS_UT","RP_NEG","RD_UNK"], "rsym"],
+	"RD_SYM"   : [["N_NN","PR_PRP","PR_PRQ","V_VM","N_NNP"], "rsym"]
+	}
+}

@@ -1,0 +1,38 @@
+==== PART 2: R Data Analysis ====
+
+Z-Score Analysis for Young Subjects:
+Observed within 1 SD: 0.6677 (Expected: 0.6827)
+Observed within 2 SD: 0.9606 (Expected: 0.9545)
+Observed within 3 SD: 0.9961 (Expected: 0.9973)
+
+Mean vs Median Comparison for Young Subjects:
+RTlexdec - Mean: 6.4392, Median: 6.4256
+NounFrequency - Mean: 600.1883, Median: 108.0000
+
+T-test comparing 'p' words vs others:
+
+	Welch Two Sample t-test
+
+data:  p_words and other_words
+t = -1.4815, df = 218.81, p-value = 0.1399
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.023733823  0.003363989
+sample estimates:
+mean of x mean of y 
+ 6.429819  6.440004 
+
+
+T-test comparing words starting with 2 consonants vs others:
+
+	Welch Two Sample t-test
+
+data:  two_cons_rts and other_rts
+t = 3.597, df = 3731.7, p-value = 0.0003261
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.00777562 0.02640810
+sample estimates:
+mean of x mean of y 
+ 6.560694  6.543602 
+

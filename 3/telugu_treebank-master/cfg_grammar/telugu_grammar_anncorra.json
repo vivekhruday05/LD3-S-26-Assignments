@@ -1,0 +1,34 @@
+{
+"LEFTARC" : 
+	{
+	"JJ"   : [[[], ["NN","PRP","NST","WQ"]], "nmod__adj"],
+	"QC"   : [[[], ["NN"]], "nmod"] ,
+	"INTF" : [[[], ["JJ","RB"]], "intf"] ,
+	"INJ"  : [[[], ["NN"]], "lwg__uh"] ,
+	"DEM"  : [[[], ["NN", "NNP", "NST"]], "nmod"] ,
+	"NNP"  : [[[], ["NN", "NNP"]], "nmod"] ,
+    "NN"  : [[[], ["NN"]], "pof__cn"],
+    "NNC" : [[[], ["NN"]], "pof__cn"],
+    "NNPC" : [[[], ["NNP"]], "pof__cn"],
+    "VM"  : [[[], ["VM"]], "pof__cv"],
+	"WQ"   : [[[], ["NN", "NNP"]], "nmod__wq"] ,
+	"PRP"  : [[[], ["NN"]], "nmod"] ,
+	"QF"   : [[[], ["NN"]], "nmod"],
+	"RB"   : [[[], ["VM"]], "adv"],
+	"QO"   : [[[], ["NN"]], "nmod"] ,
+	"ECH"  : [[[],["RB"]], "pof__redup"] ,
+	"SYM"  : [[[], ["NN", "NNP","QC","NST","VM", "JJ","RB","QF","PRP","QO","WQ","INTF","RP","INJ","CC"]], "rsym"]
+	},
+"RIGHTARC" : 
+	{
+    "PSP" : [["NN", "NNP", "PRP", "QC", "WQ"], "lwg__psp"] ,
+    "RDP" : [["NN", "VM", "JJ", "RB", "RP", "WQ"], "pof__redup"],
+    "QF" : [["NN"],"nmod"],
+	"VAUX" : [["VM"], "lwg__vaux"] ,
+	"NEG"  : [["VM"], "lwg__neg"] ,
+	"RP"   : [["NN", "NNP","VM","QF"], "lwg__rp"] ,
+    "CL" : [["QC","QF","INTF"], "lwg__rp"],
+    "NST" : [["PRP","NN"], "lwg__psp"],
+	"SYM"  : [["NN", "NNP","QC","NST","VM","VAUX", "JJ","RB","QF","PRP","QO","WQ","INTF","RP","INJ","CC","UT","NEG","UNK"], "rsym"]
+	}
+}
