@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.1)  5 MAR 2026 19:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.1)  5 MAR 2026 20:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -323,7 +323,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 16.
-<dep_dist_hist.png, id=4, 722.7pt x 361.35pt>
+<dep_dist_hist.png, id=5, 722.7pt x 361.35pt>
 File: dep_dist_hist.png Graphic file (type png)
 <use dep_dist_hist.png>
 Package pdftex.def Info: dep_dist_hist.png  used on input line 29.
@@ -342,18 +342,18 @@ Overfull \hbox (3.19954pt too wide) in paragraph at lines 46--48
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
 dvips/cm-super/cm-super-ts1.enc} <./dep_dist_hist.png>] [2]
-<hist_rts.png, id=25, 433.62pt x 289.08pt>
+<hist_rts.png, id=27, 433.62pt x 289.08pt>
 File: hist_rts.png Graphic file (type png)
 <use hist_rts.png>
 Package pdftex.def Info: hist_rts.png  used on input line 70.
 (pdftex.def)             Requested size: 271.7835pt x 181.19945pt.
-<hist_age.png, id=26, 578.16pt x 289.08pt>
+<hist_age.png, id=28, 578.16pt x 289.08pt>
 File: hist_age.png Graphic file (type png)
 <use hist_age.png>
 Package pdftex.def Info: hist_age.png  used on input line 80.
 (pdftex.def)             Requested size: 317.07614pt x 158.53574pt.
  [3 <./hist_rts.png (PNG copy)> <./hist_age.png (PNG copy)>]
-<boxplot_nv.png, id=34, 433.62pt x 289.08pt>
+<boxplot_nv.png, id=36, 433.62pt x 289.08pt>
 File: boxplot_nv.png Graphic file (type png)
 <use boxplot_nv.png>
 Package pdftex.def Info: boxplot_nv.png  used on input line 111.
@@ -362,7 +362,7 @@ Package pdftex.def Info: boxplot_nv.png  used on input line 111.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<barplot_nv.png, id=35, 433.62pt x 289.08pt>
+<barplot_nv.png, id=37, 433.62pt x 289.08pt>
 File: barplot_nv.png Graphic file (type png)
 <use barplot_nv.png>
 Package pdftex.def Info: barplot_nv.png  used on input line 121.
@@ -371,7 +371,7 @@ Package pdftex.def Info: barplot_nv.png  used on input line 121.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4]
-<boxplot_initial.png, id=42, 722.7pt x 289.08pt>
+<boxplot_initial.png, id=44, 722.7pt x 289.08pt>
 File: boxplot_initial.png Graphic file (type png)
 <use boxplot_initial.png>
 Package pdftex.def Info: boxplot_initial.png  used on input line 131.
@@ -380,7 +380,7 @@ Package pdftex.def Info: boxplot_initial.png  used on input line 131.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<boxplot_cons.png, id=43, 433.62pt x 289.08pt>
+<boxplot_cons.png, id=45, 433.62pt x 289.08pt>
 File: boxplot_cons.png Graphic file (type png)
 <use boxplot_cons.png>
 Package pdftex.def Info: boxplot_cons.png  used on input line 141.
@@ -398,13 +398,13 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8971 strings out of 476106
- 139453 string characters out of 5793934
+ 8973 strings out of 476106
+ 139474 string characters out of 5793934
  1936975 words of memory out of 5000000
- 30883 multiletter control sequences out of 15000+600000
- 562520 words of font info for 51 fonts, out of 8000000 for 9000
+ 30884 multiletter control sequences out of 15000+600000
+ 562689 words of font info for 52 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 75i,6n,79p,843b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,843b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
@@ -412,12 +412,13 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfr
-m1000.pfb>
-Output written on report.pdf (6 pages, 600650 bytes).
+public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.
+pfb>
+Output written on report.pdf (6 pages, 609568 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 106 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  16 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
